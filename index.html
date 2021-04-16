@@ -1,201 +1,254 @@
+<!doctype html>
 <html lang="en">
 <head>
-
-    <!-- required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!--google font  -->
-    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Noto+Serif" rel="stylesheet">
-    
-    <!-- bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
-    <!-- custom CSS -->
-    <link rel="stylesheet" href="lawn.css">
-
-    <!-- font awesome  -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">     
-    
-    <title>SP Landscape</title>
-
+  <meta charset="utf-8">
+  <title>SP Landscaping</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">     
+  <link rel="stylesheet" href="lawn.css">
 </head>
 
 <body>
-    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
-        <a href="index.html" class="navbar-brand">SP Landscaping</a>
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navLinks">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a href="index.html" class="nav-link">HOME</a>
-                </li>
-                <li class="nav-item">
-                    <a href="services.html" class="nav-link">SERVICES</a>
-                </li>
-                <li class="nav-item">
-                    <a href="gallery.html" class="nav-link">GALLERY</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#contact" class="nav-link">CONTACT</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-<!-- home page  -->
-<div class="jumbotron jumbotron-fluid"> 
-    <div id="anime">
-        <h1 id="main-text">Hello We Are SP</h1>
-        <hr id="mainHr">
+  <nav class="navbar">
+    <div class="navbrand">
+      <h1><a href="index.html" class="brand">SPLandscaping</a></h1>
+      <div class="burger" id="burger">
+        <span class="burger-open">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="16">
+            <g fill="#252a32" fill-rule="evenodd">
+              <path d="M0 0h24v2H0zM0 7h24v2H0zM0 14h24v2H0z" />
+            </g>
+          </svg>
+        </span>
+        <span class="burger-close">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+            <path fill="#252a32" fill-rule="evenodd" d="M17.778.808l1.414 1.414L11.414 10l7.778 7.778-1.414 1.414L10 11.414l-7.778 7.778-1.414-1.414L8.586 10 .808 2.222 2.222.808 10 8.586 17.778.808z" />
+          </svg>
+        </span>
+      </div>
     </div>
-
-    <div class="container" id="anim">
-        <ul class="tag-list">
-            <li>
-                <span class="tag-text">Lawn Maintenance</span>
-            </li>
-        </ul>
-         <ul class="tag-list">
-            <li>
-                <span class="tag-text">Trimming</span>
-            </li>
-        </ul>
-         <ul class="tag-list">
-            <li >
-                <span class="tag-text">Snow Removal</span>
-            </li>
-        </ul>
-        <ul class="tag-list">
-            <li >
-                <span class="tag-text">And More...</span>
-            </li>
-        </ul>
-         <ul class="tag-list" id="colorTag">
-            <li>
-                <a href="mailto:crystalperez455@gmail.com" class="link"><span class="tag-text">Contact Us</span></a>
-                <a href="https://www.instagram.com/splandscaping_75/">
-                    <span><i class="fab fa-instagram"></i></span>
-                </a>
-            </li>
-        </ul>
-        <!-- <ul class="tag-list">
-            <li >
-                <a href="https://fontawesome.com/icons/instagram">
-                    <span><i class="fab fa-instagram"></i></span>
-                </a>
-            </li> -->
-        </ul>
+    <ul class="menu" id="menu">
+      <li class="menu-item"><a href="index.html" class="menu-link">Home</a></li>
+      <li class="menu-item"><a href="#about" class="menu-link">About</a></li>
+      <li class="menu-item"><a href="#services" class="menu-link">Services</a></li>
+      <li class="menu-item"><a href="#gallery" class="menu-link">Gallery</a></li>
+    </ul>
+    <div class="social">
+      <a href="https://www.instagram.com/splandscaping_75/" class="social-item"><i class="fab fa-instagram"></i></a>
     </div>
-</div>
+  </nav>
 
-<!-- about -->
-<div class="container">
-        <div class="container">
-            <h2>Welcome To <br> SP Landscaping</h2>
+  <div class="sect sect--padding-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+      <div class="site">
+        <h1 class="site__title">Welcome To SP Landscapaing</h1>
+        <h2 class="site__subtitle">A Family Own Business</h2>
+        <div class="site__box-link">
+          <a class="btn btn--width" href="mailto:splandscaping75@gmail.com" target="_blank"class="link">
+            Email Us
+          </a>
+          <a class="btn btn--revert btn--width" class="instaLogo" href="https://www.instagram.com/splandscaping_75/">
+            <span><i class="fab fa-instagram"></i></span>
+             Instagram
+          </a>
         </div>
-        <hr id="secondHr">
-        <p>Based out of Chicago, <strong>SP Landscaping</strong> has been operating for 8 years. We service Chicago and the surrounding suburbs. We offer a full range of landscaping services including lawn mowing, lawn maintenance, sod installation, snow removal, and much more.</p>
-        <p>Samuel with 25 years of experience in the industry decided to start SP Landscaping with the help of his daughter, Crystal. Since he has a wealth of knowledge and experience in the industry he eventually decided it was time to take on projects no other company wanted to tackle. His goal after each project is to make sure his customers are beyond satisfied with the quality of work and most importantly providing these luxuries at the most reasonable prices.</p>
-        <p>We strive in providing our clients with professional and quality workmanship and landscaping services to ensure the satisfaction of each and every customer.</p>
-        <p>No job is ever too small or too big for SP Landscaping. We do it all! </p>
-        <p>Would you like a free estimate? Please <a href="mailto:crystalperez455@gmail.com" class="contactus">Contact us.</a> 
-                <div class="row">
-                    <div class="col-lg-6 col-sm-6">
-                        <div class="thumbnail">
-                            <p>For Spanish please call Samuel at <br> <a href="tel:1-773-620-1051" class="contactus">773-620-1051</a></p>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-sm-6">
-                        <div class="thumbnail">
-                            <p>For English please call Crystal at <br> <a href="tel:1-773-587-9785" class="contactus">773-587-9785</a> or <a href="tel:1-773-787-6023" class="contactus">773-787-6023</a></p>
-                        </div>
-                    </div>
+        <img class="site__img" src="../photos/sod2.jpg">
+      </div>
+      </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="about" class="sect sect--white">
+    <div class="container">
+      <div class="row">
+        <h1 class="row__title">
+          About SP Landscaping
+        </h1>
+      </div>
+
+      <div class="row row--margin row--text-center">
+        <div class="col-md-8 col-sm-10 col-xs-12 row__carousel">
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <div class="item__content">
+                  <p class="item__description">
+                    Based out of Chicago, <strong>SP Landscaping</strong> has been operating for 8 years. 
+                    We service Chicago and the surrounding suburbs. We offer a full range of landscaping 
+                    services including lawn mowing, lawn maintenance, sod installation, snow removal, and much more.
+                    Samuel with 25 years of experience in the industry decided to start SP Landscaping with the help of his daughter,
+                    Crystal. Since he has a wealth of knowledge and experience in the industry he eventually decided it was time to 
+                    take on projects no other company wanted to tackle. His goal after each project is to make sure his customers 
+                    are beyond satisfied with the quality of work and most importantly providing these luxuries at the most 
+                    reasonable prices. We strive in providing our clients with professional and quality workmanship and 
+                    landscaping services to ensure the satisfaction of each and every customer.
+                    No job is ever too small or too big for SP Landscaping. We do it all! 
+                  </p>
                 </div>
-</div>
-
-<!-- goals -->
-<div class="container">
-        <h2>Our Main Two Goals</h2>
-        <div class="row">
-          <div class="col-lg-6 col-sm-6">
-            <div class="thumbnail">
-              <i class="fas fa-tree fa-5x"></i>
-              <p>Provide A Great Product</p>
-            </div>
-          </div>
-          <div class="col-lg-6 col-sm-6">
-            <div class="thumbnail">
-              <i class="far fa-handshake fa-5x"></i>
-              <p>Provide A Great Experience</p>              
-            </div>
+                <div class="site">
+                  <h1 class="site__title">Free estimates</h1>
+                  <h2 class="site__subtitle">Please contact us</h2>
+                  <div class="site__box-link">
+                    <a class="btn btn--width" href="tel:1-773-620-1051" target="_blank"class="link">
+                      Call for Spanish
+                    </a>
+                    <a class="btn btn--revert btn--width" class="instaLogo" href="tel:1-773-587-9785">
+                      Call for English
+                    </a>
+                  </div>
+                </div>
+              </div>
           </div>
         </div>
-</div>
-
-<hr id="secondHr">
-
-
-<footer class="container">
-    <div id="contact" class="row">
-        <div class="col-md-5">
-            <p id="footer-contact"><strong>SP Landscaping</strong><br>
-            Address: 2536 N Mason Ave Chicago, IL 60639 <br>
-            Phone Number: <a href="tel:1-773-587-9785" class="contactus">773-587-9785</a></p>
-        </div>
-        <div id="hours" class="col-md-3 offset-md-4">
-            <table>
-                <thead>
-                    <tr>
-                        <th><strong>Hours:</strong></th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Monday</td>
-                        <td>7:00AM - 6:00PM</td>
-                    </tr>
-                    <tr>
-                        <td>Tuesday</td>
-                        <td>7:00AM - 6:00PM</td>
-                    </tr>
-                    <tr>
-                        <td>Wednesday</td>
-                        <td>7:00AM - 6:00PM</td>
-                    </tr>
-                    <tr>
-                        <td>Thursday</td>
-                        <td>7:00AM - 6:00PM</td>
-                    </tr>
-                    <tr>
-                        <td>Friday</td>
-                        <td>7:00AM - 6:00PM</td>
-                    </tr>
-                    <tr>
-                        <td>Saturday</td>
-                        <td>7:00AM - 6:00PM</td>
-                    </tr>
-                    <tr>
-                        <td>Sunday</td>
-                        <td>7:00AM - 6:00PM</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+      </div>
     </div>
+  </div>
+  </div>
+
+  <section id="services" class="services-section container">
+    <!-- *** services section header *** -->
+    <header classs="services" class="section__header services__header">
+      <h2 class="section__title services__title">services</h2>
+      <!-- <p class="section__lead services__lead">
+        Proin iaculis purus consequat sem cure.
+      </p> -->
+    </header>
+
+    <!-- *** services-list *** -->
+
+    <ul class="services-list">
+      <li class="service-item">
+        <!-- <h3 class="service-name service-name-commerce">E-Commerce</h3> -->
+          <ul>
+            <li>Brick Paving</li>
+            <li>Lawn Maintenance</li>
+            <li>Grass Cutting</li>
+            <li>Edging</li>
+            <li>Cultivation</li>
+            <li>Sweeping</li>
+        </ul>
+      </li>
+      <li class="service-item">
+        <!-- <h3 class="service-name service-name-web">Responsive Web</h3> -->
+        <ul>
+          <li>Tree and Edge Trimming</li>
+          <li>Seed/New Sod and Soil</li>
+          <li>Gravel</li>
+          <li>Gutter Cleanup</li>
+          <li>Rock Gardens</li>
+          <li>Power Rake</li>
+      </ul>
+      </li>
+      <li class="service-item">
+        <!-- <h3 class="service-name service-name-security">Web Security</h3> -->
+        <p class="service-desc">
+          <ul>
+            <li>Spring Cleanup</li>
+            <li>Fertilizing</li>
+            <li>Weed Killing</li>
+            <li>Fall Cleanup</li>
+            <li>Aeration</li>
+            <li>Mulch</li>
+            <li>Planting Trees</li>
+            <li>Snow Removal</li>
+        </ul>
+        </p>
+      </li>
+    </ul>
+  </section>
+
+  <section id="gallery" class="gallery">
+    <div class="container">
+      <div class="row">
+        <header class="section__header services__header">
+          <h2 class="section__title services__title">gallery</h2>
+        </header>
+      </div>
+      <div class="grid">
+        <div class="column-xs-12 column-md-4">
+          <figure class="img-container">
+            <img src="../photos/bush1.jpg" />
+          </figure>
+        </div>
+        <div class="column-xs-12 column-md-4">
+          <figure class="img-container">
+            <img src="../photos/bush2.jpg" />
+          </figure>
+        </div>
+        <div class="column-xs-12 column-md-4">
+          <figure class="img-container">
+            <img src="../photos/bush3.jpg" />
+          </figure>
+        </div>
+        <div class="column-xs-12 column-md-6">
+          <figure class="img-container">
+            <img src="../photos/bush4.jpg" />
+            <figcaption class="img-content">
+            </span>
+          </figure>
+        </div>
+        <div class="column-xs-12 column-md-6">
+          <figure class="img-container">
+            <img src="../photos/lawn1.jpg" />
+          </figure>
+        </div>
+        <div class="column-xs-12 column-md-6">
+          <figure class="img-container">
+            <img src="../photos/lawn2.jpg" />
+          </figure>
+        </div>        
+        <div class="column-xs-12 column-md-6">
+          <figure class="img-container">
+            <img src="../photos/lawn3.jpg" />
+          </figure>
+        </div>        
+        <div class="column-xs-12 column-md-6">
+          <figure class="img-container">
+            <img src="../photos/sod1.jpg" />
+          </figure>
+        </div>               
+        <div class="column-xs-12 column-md-6">
+          <figure class="img-container">
+            <img src="../photos/sod3.jpg" />
+          </figure>
+        </div> 
+        <div class="column-xs-12">
+          <figure class="img-container">
+            <img src="../photos/lawn2.jpg" />
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<footer>  
+  <div class="landscape-info">
+    <div class="locations">
+      <h4>LOCATIONS</h4>
+      <div class="location-1">
+        <h5>Serving:</h5>
+        <h5>Chicago and suburbs</h5>
+      </div><!--location-1-->
+    </div><!--locations end-->
+
+    <div class="hours">
+      <h4>HOURS</h4>
+      <div class="weekdays">
+        <h5>Monday - Sunday<br />
+          7:00pm - 6:00pm
+        </h5>
+      </div><!--weekdays end-->
+    </div><!--hours end--> 
+  </div><!--restaurant-info end-->
+  <div class="copyright">
+    <p><small>Copyright 2021 &#169; Handcrafted by <a href="https://jperezguerrero.netlify.app/" target="_blank"class="link"><span>devjp</span></a></small></p>
+  </div>
 </footer>
-
-
-  <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
-
-
+  <script src="./index.js"></script>
 </body>
 </html>

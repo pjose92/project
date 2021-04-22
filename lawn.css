@@ -906,11 +906,7 @@ img:hover {
     grid-gap: 1rem;
   }
 }
-@media (min-width: 62rem) {
-  nav ul {
-    justify-content: flex-end;
-  }
-}
+
 @media screen and (max-width: 1024px) {
   img:hover {
     transform: none;

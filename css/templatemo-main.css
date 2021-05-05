@@ -295,7 +295,7 @@ h1, h2, h3, h4, h5, h6 {
 #gallery .portfolio-thumb .overlay {
   opacity: 0;
   visibility: visible;
-  background: #BED3AB;
+  background: #bed3abbe;
   position: absolute;
   top: 0;
   left: 0;
